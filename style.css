@@ -1,0 +1,115 @@
+html{
+  box-sizing:border-box;
+  font-size:14px;
+  font-family:Rubik;
+}
+*,*:before,*:after{
+  box-sizing:inherit;
+}
+
+body{
+  padding:50px;
+  background-image: url("https://vip-go.shutterstock.com/blog/wp-content/uploads/sites/5/2020/05/shutterstock_407554567.jpg?w=750")
+}
+h2,h4,h3,p {
+  margin:0px;
+}
+
+#card {
+  
+  width: 650px;
+  height:450px;
+  background-color: white;
+  box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.35);
+  border-radius:6px;
+  overflow:hidden;
+  margin-left:365px;
+}
+
+#top-card {
+  height:45%;
+  width:100%;
+  background-color:#F2F2F2;
+  padding:35px;
+  margin-bottom: 0px;
+ 
+}
+
+#bottom {
+
+  height:55%;
+  width:100%;
+  
+}
+
+#bottom-left{
+   display: inline-block;
+  background-color:#9DA65D;
+  height:100%;
+  width:50%;
+  vertical-align:top;
+  padding:35px;
+
+}
+
+#bottom-right {
+   display: inline-block;
+  background-color:#6C733D;
+  height:100%;
+  width:50%;
+  vertical-align:top;
+  padding:35px;
+  
+}
+
+#price{
+  display:inline-block;
+  background: linear-gradient(to right, #FD2D00 0%, #DF007C 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+#month{
+  display:inline-block;
+  color:#DF007C;
+}
+button{
+  background-color:#F2F2F2;
+  height:45px;
+  width:100%;
+  border:none;
+  font-size:1.05rem;
+  box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.35);
+  border-radius:4px;
+  font-weight:900;
+  background: linear-gradient(to right, #FD2D00 0%, #DF007C 100%);
+}
+button:hover {
+  cursor:pointer;
+  color:white;
+  background-color:grey;
+  box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.35);
+  border-radius:5px;
+}
+#price{
+  font-size:1.5rem;
+  font-weight:900;
+  margin-top:25px;
+  margin-bottom:10px;
+}
+#full {
+  margin-bottom:35px;
+}
+#join{
+  margin-bottom:20px;
+   background: linear-gradient(to right, #FD2D00 0%, #DF007C 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+#top-card h3{
+  margin-bottom:20px;
+}
+ol{
+  padding:0px;
+  list-style:none;
+  opacity:0.8;
+}
